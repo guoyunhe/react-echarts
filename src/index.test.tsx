@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import { ReactEcharts } from '.';
+import { Chart } from '.';
 
 describe('<ReactEcharts/>', () => {
   it('render', async () => {
-    render(<ReactEcharts>Hello</ReactEcharts>);
+    render(<Chart>Hello</Chart>);
 
     const elem = await screen.findByText('Hello');
 

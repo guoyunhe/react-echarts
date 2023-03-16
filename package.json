@@ -14,7 +14,7 @@
     "url": "git+https://github.com/guoyunhe/react-echarts.git"
   },
   "funding": "https://github.com/sponsors/guoyunhe",
-  "license": "UNLICENSED",
+  "license": "GPL-3.0",
   "author": {
     "name": "Guo Yunhe",
     "email": "i@guoyunhe.me"
@@ -65,5 +65,9 @@
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "deepmerge-ts": "^4.3.0",
+    "echarts": "^5.4.1"
   }
 }
